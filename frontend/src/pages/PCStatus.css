@@ -1,0 +1,70 @@
+.pc-status-container {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #3498db;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .pc-available {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .pc-in-use {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .name-input {
+    margin: 5px 0 5px 0;
+    padding: 8px;
+    width: 200px;
+    transition: border-color 0.3s;
+  }
+  
+  .name-input:hover {
+    border-color: #3498db;
+  }
+  
+  .set-pc-button,
+  .free-pc-button {
+    margin-top: 5px;
+    margin-left: 7px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .set-pc-button:hover,
+  .free-pc-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .set-pc-button:disabled,
+  .free-pc-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  
